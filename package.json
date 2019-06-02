@@ -1,0 +1,31 @@
+{
+  "name": "samlify-libxml-xsd",
+  "version": "1.0.0",
+  "description": "Validator module powered by libxml-xsd",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "yarn run clean && yarn run cp-schemas && tsc",
+    "cp-schemas": "mkdir -p build/schemas && cp -R schemas build",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authenio/samlify-libxml-xsd.git"
+  },
+  "author": "tngan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/authenio/samlify-libxml-xsd/issues"
+  },
+  "homepage": "https://github.com/authenio/samlify-libxml-xsd#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.4",
+    "typescript": "^3.5.1"
+  },
+  "engines" : {
+    "node" : "<= 8"
+  },
+  "dependencies": {
+    "libxml-xsd": "^0.5.2"
+  }
+}
