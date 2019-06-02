@@ -1,5 +1,5 @@
 {
-  "name": "samlify-libxml-xsd",
+  "name": "@authenio/samlify-libxml-xsd",
   "version": "1.0.0",
   "description": "Validator module powered by libxml-xsd",
   "main": "build/index.js",
