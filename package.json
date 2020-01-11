@@ -1,6 +1,6 @@
 {
   "name": "@authenio/samlify-libxml-xsd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validator module powered by libxml-xsd",
   "main": "build/index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   },
   "dependencies": {
     "libxml-xsd": "^0.5.2"
+  },
+  "peerDependencies": {
+    "samlify": ">= 2.6.0" 
   }
 }
